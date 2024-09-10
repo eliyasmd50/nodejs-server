@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eliyasmd50/nodejs-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eliyasmd50/nodejs-server/issues"
+  },
+  "homepage": "https://github.com/eliyasmd50/nodejs-server#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "mysql2": "^3.11.0",
+    "sequelize": "^6.37.3"
+  }
+}
