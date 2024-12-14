@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Http video streaming</title>
+    <style>
+        body {
+            margin: 40px auto;
+            max-width: 650px;
+            background-color: #444;
+            color: hwb(0 0% 37%);
+        }
+        h1 {
+            background-color: black;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Netflix</h1>
+    </header>
+    <main>
+        <video id="videoPlayer" width="650" controls muted="muted" autoplay>
+            <source src="/video" type="video/mp4"/>
+        </video>
+    </main>
+</body>
+</html>
